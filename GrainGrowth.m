@@ -32,7 +32,7 @@ function GrainGrowth(Nx, Ny, dx, dy, end_time, time_step)
 
 tic
 if nargin < 6
-    error("Please enter the required number of arguments. For more on in function, use help GrainGrowth2D");
+    error("Please enter the required number of arguments. For more information on function call, use help GrainGrowth2D");
 end
 disp('The code execution has commenced');
 axis("square");
